@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KTP Marketplace</title>
+</head>
+<body>
+  <!-- Your page content goes here -->
+  <h1>Welcome to KTP Marketplace</h1>
+  <p>Coming soon: Browse and post listings!</p>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAtw3J5QWPzD33kEVqgTXHxqYjb9MUBpO0",
+      authDomain: "ktp-marketplace.firebaseapp.com",
+      projectId: "ktp-marketplace",
+      storageBucket: "ktp-marketplace.firebasestorage.app",
+      messagingSenderId: "260164442729",
+      appId: "1:260164442729:web:b382c4841efcc0ff9960f8",
+      measurementId: "G-44ER1FSXPC"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Your custom Firestore test -->
+  <script src="scripts/db.js"></script>
+</body>
+</html>
